@@ -1,0 +1,148 @@
+html,
+body {
+    background-color: white;
+    font-family: "Lato";
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+p {
+    font-size: 24px;
+}
+
+/** Title Heading **/
+h1 {
+    font-size: 100px;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+/** Section Headings **/
+h2 {
+    font-size: 40px;
+    color: black;
+    text-align:center;
+}
+
+h3 {
+    font-size: 32px;
+    color: royalblue;
+    height: 10px;
+}
+
+h4 {
+    font-size: 24px;
+    color: darkgreen;
+    height: 10px;
+}
+
+h5 {
+    font-size: 24px;
+    color: black;
+}
+
+
+footer {
+    padding: 20px 20px 30px 20px;
+    font-family: 'Lato';
+    color: black;
+    text-align: center;
+}
+
+#page1 {
+    background-color: #204d74;
+    font-family: "Lato";
+    height: 100vh;
+    width: 100vw;
+}
+
+
+#page2 {
+    background-color: white;
+    padding: 80px 250px 80px 250px;
+    height: 1000px;
+}
+
+
+#page3 {
+    background-color: lightsteelblue;
+    text-align: center;
+    padding: 80px 100px 80px 100px;
+    height: 470px;
+    color: black;
+}
+
+#page4 {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px 20px 100px 20px;
+    height: 200px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.underline {
+    border-bottom: 1px solid currentColor;
+}
+
+.underline:hover {
+    color: blue;
+}
+
+/**Social Media**/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: purple;
+    color: white;
+}
+
+.fa-envelope {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.fa-medium {
+    background: #009000;
+    color: white;
+}
+
+.fa-soundcloud {
+    background: darkorange;
+    color: white;
+}
