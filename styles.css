@@ -27,31 +27,21 @@ h2 {
     font-size: 40px;
     color: black;
     text-align:center;
+    height: 20px;
 }
-
-h3 {
-    font-size: 32px;
-    color: royalblue;
-    height: 10px;
-}
-
-h4 {
-    font-size: 24px;
-    color: darkgreen;
-    height: 10px;
-}
-
-h5 {
-    font-size: 24px;
-    color: black;
-}
-
 
 footer {
     padding: 20px 20px 30px 20px;
     font-family: 'Lato';
     color: black;
     text-align: center;
+}
+
+hr {
+    width: 30%;
+    size: 1px;
+    color: black;
+    margin-bottom: 40px;
 }
 
 #page1 {
@@ -65,15 +55,15 @@ footer {
 #page2 {
     background-color: white;
     padding: 80px 250px 80px 250px;
-    height: 1000px;
+    height: 1500px;
 }
 
 
 #page3 {
     background-color: lightsteelblue;
     text-align: center;
-    padding: 80px 100px 80px 100px;
-    height: 470px;
+    padding: 20px 100px 20px 100px;
+    height: 520px;
     color: black;
 }
 
@@ -81,7 +71,7 @@ footer {
     background-color: lightgrey;
     text-align: center;
     padding: 20px 20px 100px 20px;
-    height: 200px;
+    height: 180px;
     color: black;
 }
 
@@ -101,6 +91,18 @@ a:hover {
 .underline:hover {
     color: blue;
 }
+
+.location {
+    font-size: 32px;
+    color: royalblue;
+    height: 10px;
+}
+
+.description {
+    font-size: 24px;
+    color: darkgreen;
+}
+
 
 /**Social Media**/
 
