@@ -45,7 +45,7 @@ hr {
 }
 
 #page1 {
-    background-color: #204d74;
+    background-color: #104d74;
     font-family: "Lato";
     height: 100vh;
     width: 100vw;
@@ -54,8 +54,9 @@ hr {
 
 #page2 {
     background-color: white;
-    padding: 80px 250px 80px 250px;
-    height: 1500px;
+    padding: 20px 200px 20px 200px;
+    text-align:center;
+
 }
 
 
@@ -63,30 +64,35 @@ hr {
     background-color: lightsteelblue;
     text-align: center;
     padding: 20px 100px 20px 100px;
-    height: 520px;
     color: black;
 }
 
 #page4 {
+    background-color: white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    color: black;
+}
+
+#page5 {
     background-color: lightgrey;
     text-align: center;
-    padding: 20px 20px 100px 20px;
-    height: 180px;
+    padding: 20px 20px 20px 20px;
     color: black;
 }
 
 a {
     text-decoration: none;
-    color: black;
-}
-
-a:hover {
     color: blue;
 }
 
-.underline {
-    border-bottom: 1px solid currentColor;
+a:hover {
+    color: red;
 }
+
+/*.underline {
+    border-bottom: 1px solid currentColor;
+}*/
 
 .underline:hover {
     color: blue;
