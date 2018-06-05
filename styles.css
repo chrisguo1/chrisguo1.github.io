@@ -1,93 +1,113 @@
-html,
+/**
+#577399
+#23395B
+#BDD5EA
+#F7F7FF
+#FE5F55
+*/
 body {
     background-color: white;
-    font-family: "Lato";
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
+    font-family: Lato;
+    font-weight: 400;
+
+}
+main {
+  background-color: #F7F7FF;
+  margin: 3vh 2vw 3vh 2vw;
 }
 
 p {
     font-size: 24px;
+    font-weight: 300;
 }
 
 /** Title Heading **/
 h1 {
     font-size: 100px;
-    color: white;
-    width: 100vw;
-    height: 100vh;
+    color: black;
+    width: 75vw;
+    height: 60vh;
     display: table-cell;
     vertical-align:middle;
     text-align:center;
+    font-weight: 300;
 }
 
 /** Section Headings **/
 h2 {
-    font-size: 40px;
+    font-size: 50px;
     color: black;
-    text-align:center;
+    text-align: left;
     height: 20px;
+    font-family: Verdana;
 }
 
 footer {
     padding: 20px 20px 30px 20px;
     font-family: 'Lato';
-    color: black;
     text-align: center;
 }
 
+/**
 hr {
-    width: 30%;
+    width: 20%;
     size: 1px;
     color: black;
     margin-bottom: 40px;
+}**/
+
+.page {
+    padding: 30px 100px 10px 100px;
+    color: black;
 }
 
-#page1 {
-    background-color: #104d74;
-    font-family: "Lato";
+#text-block {
+    padding: 30px;
+}
+
+#title {
     height: 100vh;
-    width: 100vw;
+    background: #F7F7FF;
 }
 
-
-#page2 {
-    background-color: white;
-    padding: 20px 200px 20px 200px;
-    text-align:center;
-
+#title-block {
+    background-color: #BDD5EA;
+    font-family: "Lato";
+    margin-top: 15vh;
+    width: 75vw;
+    height: 60vh;
+    float: left;
 }
 
+#accent-block {
+    background-color: #23395B;
+    margin-left: 60vw;
+    height: 90vh;
+}
 
-#page3 {
-    background-color: lightsteelblue;
-    text-align: center;
-    padding: 20px 100px 20px 100px;
+#two {
     color: black;
 }
 
-#page4 {
-    background-color: white;
-    text-align: center;
-    padding: 20px 20px 20px 20px;
+#three {
     color: black;
 }
 
-#page5 {
-    background-color: lightgrey;
-    text-align: center;
-    padding: 20px 20px 20px 20px;
+#four {
+    color: black;
+}
+
+#five {
     color: black;
 }
 
 a {
     text-decoration: none;
-    color: blue;
+    color: #577399;
 }
 
 a:hover {
-    color: red;
+    color: #FE5F55;
 }
 
 /*.underline {
