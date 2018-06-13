@@ -5,15 +5,21 @@
 #F7F7FF
 #FE5F55
 */
+html {
+    overflow: hidden;
+    height: 100%;
+}
 body {
     background-color: white;
     font-family: Lato;
     font-weight: 400;
     margin: 0;
-
+    height: 100%;
+    overflow: auto;
 }
 main {
-  background-color: #F7F7FF;
+    margin-top: 20px;
+    background-color: #F7F7FF;
 }
 
 p {
@@ -55,6 +61,17 @@ hr {
     color: black;
     margin-bottom: 40px;
 }**/
+marquee {
+    overflow: hidden;
+    color: white;
+    background-color: #23395B;
+    height: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
 
 .page {
     padding: 30px 100px 10px 100px;
