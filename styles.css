@@ -4,14 +4,16 @@ body {
   margin: 0;
   font-family: Lato;
 }
+
 main {
-  padding: 60px 275px 100px 275px;
+  text-align: center;
+  padding: 60px 0px 60px 0px;
 }
 
 nav {
   font-size: 24px;
   padding-bottom: 40px;
-  text-align:center;
+  text-align: center;
 }
 
 h1 {
@@ -38,8 +40,17 @@ h1.e {
   background-color: pink;
 }
 
-section {
+.section {
+  display: inline-block;
+  text-align: left;
+  width: 80%;
   padding-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+    .section {
+      width: 60%;
+    }
 }
 
 ul {
@@ -50,7 +61,10 @@ ul {
 }
 
 a {
-  color: grey;
+  color: brown;
+}
+a:hover {
+  text-decoration: none;
 }
 
 footer {
