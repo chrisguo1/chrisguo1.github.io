@@ -7,12 +7,11 @@ body {
 
 main {
   text-align: center;
-  padding: 60px 0px 60px 0px;
+  padding: 40px 0px 40px 0px;
 }
 
 nav {
   font-size: 24px;
-  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -25,7 +24,9 @@ h1 {
   padding: 0px 8px 0px 8px;
 }
 h1.a {
+  font-size: 48px;
   background-color: #ffce99;
+  margin-bottom: 30px;
 }
 h1.b {
   background-color: #ccf3ff;
@@ -44,12 +45,34 @@ h1.e {
   display: inline-block;
   text-align: left;
   width: 80%;
-  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+#announcement {
+  padding: 20px 0px 0px 0px;
+  font-size: 18px;
+}
+
+#book {
+  padding: 40px 0px 40px 0px;
+}
+
+#book-img {
+    width: 60%;
+    height: 30%;
 }
 
 @media (min-width: 992px) {
     .section {
       width: 60%;
+    }
+    #book-img {
+      width: 30%;
+      height: 20%;
     }
 }
 
@@ -73,7 +96,7 @@ footer {
 
 .fa {
   color: black;
-  padding: 0px 15px 0px 15px;
+  padding: 0px 25px 0px 25px;
   text-decoration: none;
 }
 .fa:hover {
